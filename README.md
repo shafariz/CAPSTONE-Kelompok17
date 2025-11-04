@@ -13,19 +13,67 @@ Seluruh data pada program ini tersimpan dalam basis data relasional yang terhubu
 
 # Fitur Program
 
+## Fitur untuk Admin
+
+### 1. Login
+Admin dapat masuk ke sistem untuk mendapatkan akses penuh terhadap pengelolaan data.
+
+### 2. Manajemen Sumber Air (CRUD)
+Admin dapat menambah, melihat, memperbarui, dan menghapus data sumber air seperti lokasi, kapasitas, dan kondisi sumber.
+
+### 3. Uji Kualitas Air
+Admin melakukan pengujian terhadap kualitas sumber air.
+
+### 4. Lihat Riwayat Uji Kualitas Air
+Admin dapat memantau hasil uji kualitas air sebelumnya untuk memastikan sumber air masih layak distribusi.
+
+### 5. Pendistribusian Air
+Admin mengatur distribusi air dari sumber ke berbagai daerah sesuai kebutuhan masyarakat.
+
+### 6. Lihat Riwayat Distribusi Air
+Admin dapat melihat data historis tentang ke mana air telah didistribusikan dan dalam jumlah berapa.
+
+### 7. Manajemen Laporan (CRUD)
+Admin dapat melihat, memperbarui, dan menindaklanjuti laporan yang dikirim oleh warga terkait kondisi air.
+
+## Fitur untuk Warga
+
+### 1. Register dan Login
+Warga dapat membuat akun dan login agar bisa mengakses fitur pelaporan.
+
+### 2. Buat Laporan Kondisi Air (CRUD)
+Warga dapat membuat laporan mengenai kondisi sumber air di daerahnya (misalnya keruh, kering, atau tercemar).
+Mereka juga dapat melihat, memperbarui, atau menghapus laporan yang telah dibuat.
+
+### 3. Lihat Riwayat Distribusi Air
+Warga dapat melihat data pendistribusian air di daerahnya.
+
 # Penerapan 5 Pilar OOP
 
 ## Encapsulation
 
-
+![WhatsApp Image 2025-11-04 at 22 22 00_3f9d310f](https://github.com/user-attachments/assets/1aadd1a7-b97b-4993-903b-90858564775f)
 
 ## Inheritance
 
+![WhatsApp Image 2025-11-04 at 23 18 56_de6b7b7a](https://github.com/user-attachments/assets/1166ecc8-2c5f-4d48-a0de-b80ed6da544e)
+
+
 ## Abstraction
+
+![WhatsApp Image 2025-11-04 at 22 35 51_977c88fa](https://github.com/user-attachments/assets/1b903042-6fd0-46d9-acde-c196352cab12)
+
+![WhatsApp Image 2025-11-04 at 23 11 10_7d5fc419](https://github.com/user-attachments/assets/e62ccaef-bc3d-4dd4-8f5e-d10f4027dc0d)
 
 ## Polymorphism
 
+![WhatsApp Image 2025-11-04 at 23 15 58_5f5d511b](https://github.com/user-attachments/assets/3e7ee140-e035-4a00-aaa1-d641a518dab6)
+
+
 ## Interface
+
+![WhatsApp Image 2025-11-04 at 23 13 05_63aa0aeb](https://github.com/user-attachments/assets/0b48ba08-a783-41b8-9657-7a3c44011b64)
+
 
 # Struktur Folder / Package
 
@@ -63,8 +111,6 @@ Model digunakan untuk merepresentasikan struktur data dari setiap tabel di datab
 
 ## Service
 
-
-
 <img width="298" height="49" alt="image" src="https://github.com/user-attachments/assets/1d7d72a7-0420-4ac6-9a64-74a367bd843a" />
 
 ## Util
@@ -79,8 +125,19 @@ Model digunakan untuk merepresentasikan struktur data dari setiap tabel di datab
 
 <img width="378" height="95" alt="image" src="https://github.com/user-attachments/assets/ed43fa5a-88ee-4e3f-b88b-9dd999ed2c2d" />
 
+# Library
 
-# Library dan Framework
+## mysql-connector-j-9.4.0.jar
+
+Digunakan sebagai penghubung antara aplikasi Java dan database MySQL. Library ini berfungsi untuk memungkinkan program melakukan operasi seperti menyimpan, mengambil, mengubah, dan menghapus data pada database melalui koneksi JDBC (Java Database Connectivity).
+
+## AbsoluteLayout.jar
+
+Library yang digunakan untuk pengaturan tata letak (layout) komponen antarmuka grafis pada aplikasi Java, khususnya di NetBeans. Dengan Absolute Layout, posisi dan ukuran setiap komponen dapat diatur secara bebas menggunakan koordinat absolut (x, y, lebar, dan tinggi).
+
+## JDK 24 (Default)
+
+Merupakan Java Development Kit versi 24 yang berfungsi sebagai lingkungan utama untuk pengembangan aplikasi Java. JDK menyediakan compiler, pustaka standar, dan Java Virtual Machine (JVM) yang diperlukan untuk menulis, mengompilasi, dan menjalankan program Java.
 
 # Cara Menggunakan Program
 
