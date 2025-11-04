@@ -17,6 +17,8 @@ Seluruh data pada program ini tersimpan dalam basis data relasional yang terhubu
 
 ## Encapsulation
 
+
+
 ## Inheritance
 
 ## Abstraction
