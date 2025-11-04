@@ -167,17 +167,25 @@ Model digunakan untuk merepresentasikan struktur data dari setiap tabel di datab
 
 ## Service
 
+service digunakan untuk mengatur logika bisnis dalam aplikasi, dan berfungsi untuk memproses data sebelum ditampilkan ke pengguna atau disimpan ke database.
+
 <img width="298" height="49" alt="image" src="https://github.com/user-attachments/assets/1d7d72a7-0420-4ac6-9a64-74a367bd843a" />
 
 ## Util
+
+util digunakan untuk menyediakan fungsi-fungsi pendukung, dan berfungsi untuk membantu proses umum seperti koneksi ke database atau validasi input.
 
 <img width="297" height="66" alt="image" src="https://github.com/user-attachments/assets/562eee7d-f4d3-4883-b6a6-46fb12b64b1b" />
 
 ## View1
 
+view1 digunakan untuk menampung seluruh tampilan antarmuka aplikasi, dan berfungsi untuk menampilkan data serta menerima interaksi langsung dari pengguna.
+
 <img width="277" height="500" alt="image" src="https://github.com/user-attachments/assets/49d8ee12-f0c4-46bf-8c7d-df0c88449d38" />
 
 ## Libraries
+
+Libraries digunakan untuk menyimpan pustaka atau file eksternal yang dibutuhkan oleh program, dan berfungsi untuk menambahkan fitur tambahan yang tidak disediakan secara langsung oleh Java. Contohnya seperti library untuk koneksi database, pengelolaan tampilan, atau alat bantu lain yang mendukung jalannya aplikasi.
 
 <img width="378" height="95" alt="image" src="https://github.com/user-attachments/assets/ed43fa5a-88ee-4e3f-b88b-9dd999ed2c2d" />
 
