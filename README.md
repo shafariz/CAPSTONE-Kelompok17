@@ -155,44 +155,108 @@ Merupakan Java Development Kit versi 24 yang berfungsi sebagai lingkungan utama 
 
 1. Gambar di bawah menunjukkan tampilan dari menu utama. Jika belum memiliki akun, warga harus melakukan registrasi terlebih dahulu.
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/cb245702-8739-4645-95c6-22ad418ba9e4" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f899049c-59e0-4171-b42e-18bd92630acd" />
+
 
 2. Pada menu registrasi warga diminta untuk memasukkan Nama, Username, Password, No HP, dan Daerah.
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ddeb1a04-65f1-4be0-bc5a-26207e68f844" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/4e932051-5538-4b81-b8f7-f3bea20689d2" />
+
 
 3. Registrasi berhasil.
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8b5173d4-fa7f-48ba-8ae1-287c843786d1" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9ea61cc3-aa43-4d41-835a-43366ec9fb2a" />
+
 
 4. Setelah berhasil melakukan registrasi maka tampilan akan kembali ke menu utama. Lalu masukkan username dan password yang telah diregistrasi tadi untuk melakukan login.
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/c8e9ac19-8ba8-4828-a1b2-1c50098f5e07" />
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2cc9d69b-d1ef-4e1d-ae15-bb8c315cb4fa" />
 
-5. Login berhasil.
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/70563408-7578-4c96-95b9-e7a54efcfb6d" />
+5. 
 
-6. Setelah berhasil melakukan login maka akan muncul tampilan menu warga. Di sini terdapat beberapa menu yaitu menu Buat Laporan dan Lihat Riwayat Distribusi.
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/735dd506-56a5-400f-9774-acd55124fc26" />
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/1a3d9267-b811-489c-87d2-6822d3f3e4ea" />
+6. 
 
-7. Masuk ke menu Buat Laporan. Di sini warga bisa membuat laporan terkait dengan keluhan tentang air pada daerahnya masing - masing. Jika telah memasukkan Tanggal dan Deskripsi warga bisa langsung menekan tombol kirim untuk mengirimkan laporan.
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/93a62a2c-3085-4602-b39d-1b94c0e33119" />
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/788082c8-150f-45d5-ab7e-9177acbcf422" />
+7. 
 
-8. Laporan berhasil dikirim.
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/688be0a7-7a45-4cda-a5f3-6c7227560359" />
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8574411e-f9ec-40ae-8f83-6a877dd50a8f" />
+8. 
 
-9. Masuk ke menu riwayat distribusi. Di sini warga bisa melihat daerah mana saja yang telah mendapatkan distribusi air.
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a999d4ff-cc2e-4269-a688-191b4ea11bf6" />
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ff4b8aa4-3c4c-41d9-8176-60d7ccaf10a3" />
+9. 
 
-10. Jika warga menekan tombol kembali setelah warga selesai mengirimkan laporan ataupun melihat riwayat distribusi maka tampilan akan kembali ke menu warga.
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/61910f57-3cac-47b9-a74a-c0c26af929d4" />
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e5f3bdd3-8fb0-4997-943c-4cde935e0f02" />
+10. 
 
-11. Jika warga menekan tombol Log out pada menu warga tadi maka tampilan akan kembali ke menu utama.
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/77c06a1d-456a-4a1f-b851-1a7dad2a228e" />
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e93b608f-1382-4b18-a281-edf1e807a2b4" />
+11. 
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/94cf6f57-0b91-47b1-bb27-fd94051e9495" />
+
+12.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d1021036-2795-4228-bc36-dece3d67c402" />
+
+13.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5a70a973-c229-418f-830b-f2278c8e8008" />
+
+14.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f97f9a9a-947a-4118-905d-3931e51ed273" />
+
+15.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/490cf4e9-d4ec-409c-9b9b-d9c94fd36543" />
+
+16.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/090d2b77-58d3-49a0-a1e9-aedf7100baae" />
+
+17.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/70f8e725-301e-44b5-8b5b-a6641e00e62c" />
+
+18.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f90dc9f7-9118-4b7e-821e-7e1c4f3cecae" />
+
+19. 
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e100ecb5-e55d-444a-9c67-561f1c4379e7" />
+
+20.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8a36b831-ebc2-4716-95c6-77919b25b5e8" />
+
+21. 
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2456d2fa-5ae1-4917-9cd8-0186c398bafc" />
+
+22.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ebbf81bd-b478-47eb-86c5-188da582d425" />
+
+23. 
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9b90560d-5559-4a99-9585-cca85a5d344d" />
+
+24.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ddbe7a90-e14b-4938-818f-6eb2ac3c0d2f" />
+
+25. 
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/113a7d4b-a0f6-4715-b478-619488abeefb" />
+
+26.
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b55f6e35-c691-45b5-bdd7-75d237bb4abc" />
