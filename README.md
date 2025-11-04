@@ -10,6 +10,50 @@ Sementara itu, warga dapat melakukan registrasi dan login ke sistem, membuat lap
 
 Seluruh data pada program ini tersimpan dalam basis data relasional yang terhubung antar entitas seperti *pengguna, sumber_air, kualitas_air, distribusi_air, daerah,* dan *laporan*, sehingga mendukung pengelolaan informasi secara terintegrasi dan akurat.
 
+# USE CASE
+
+<img width="943" height="1291" alt="Copy of Flowchart CAPSTONE-USE CASE drawio (1)" src="https://github.com/user-attachments/assets/aa4042d1-62c6-4920-a29a-291efed1cd40" />
+
+# FLOWCHART
+
+## Menu Utama
+
+<img width="1034" height="1001" alt="Copy of Flowchart CAPSTONE-Menu Utama drawio (1)" src="https://github.com/user-attachments/assets/7895f59f-874c-45e8-83d9-4d71875cdfa7" />
+
+
+## Menu Registrasi
+
+<img width="765" height="921" alt="Copy of Flowchart CAPSTONE-Menu Registrasi drawio (1)" src="https://github.com/user-attachments/assets/63e08a95-ebd5-442d-bd39-99eba7a30d3a" />
+
+
+## Menu Admin
+
+<img width="280" height="962" alt="Copy of Flowchart CAPSTONE-Menu Admin drawio (1)" src="https://github.com/user-attachments/assets/5975122a-8190-437d-b2bf-125f23f5bb16" />
+
+
+## Menu Warga
+
+<img width="801" height="612" alt="Copy of Flowchart CAPSTONE-Menu Warga drawio (1)" src="https://github.com/user-attachments/assets/c8120af5-913e-46e9-86f8-38d2d211f121" />
+
+
+## Kelola Sumber Air
+
+<img width="1261" height="1302" alt="Copy of Flowchart CAPSTONE-Kelola Sumber Air drawio (1)" src="https://github.com/user-attachments/assets/f3e4f26e-bdd2-4332-89f4-adc41ef57112" />
+
+
+## Uji Kualitas Air
+
+<img width="1651" height="962" alt="Copy of Flowchart CAPSTONE-Uji Kualitas Air drawio (1)" src="https://github.com/user-attachments/assets/bd5be9c3-015e-4a86-9d0a-fb23193f00ad" />
+
+
+## Kelola Laporan
+
+<img width="1601" height="1012" alt="Copy of Flowchart CAPSTONE-Kelola Laporan drawio" src="https://github.com/user-attachments/assets/0534b846-1533-43b3-8d4e-117a37b37f46" />
+
+## Distribusi Air
+
+<img width="1981" height="840" alt="Copy of Flowchart CAPSTONE-Distribusi Air drawio (1)" src="https://github.com/user-attachments/assets/b6c667fa-6637-4dff-be0a-4a6de6b9afa7" />
+
 
 # Fitur Program
 
