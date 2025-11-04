@@ -100,7 +100,8 @@ Controller digunakan untuk mengatur alur logika antara tampilan dan data. Packag
 
 DAO berfungsi untuk menghubungkan program dengan database. Semua proses pengambilan, penyimpanan, pembaruan, dan penghapusan data dilakukan di package ini.
 
-<img width="297" height="157" alt="image" src="https://github.com/user-attachments/assets/df885a71-fe99-4811-beb8-52594976cce7" />
+<img width="231" height="185" alt="image" src="https://github.com/user-attachments/assets/0c892ddf-1121-493e-b413-dca73ed31860" />
+
 
 ## DAO Interface
 
