@@ -173,90 +173,90 @@ Merupakan Java Development Kit versi 24 yang berfungsi sebagai lingkungan utama 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2cc9d69b-d1ef-4e1d-ae15-bb8c315cb4fa" />
 
 
-5. 
+5. Akan muncul tampilan pop up yes/no, jika memilih yes maka akan masuk ke menu warga.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/735dd506-56a5-400f-9774-acd55124fc26" />
 
-6. 
+6. Lalu disini disambut dengan pop up selamat datang.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/93a62a2c-3085-4602-b39d-1b94c0e33119" />
 
-7. 
+7. Masuk ke menu warga. Di sini terdapat menu Buat Laporan dan Lihat Riwayat Distribusi
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/688be0a7-7a45-4cda-a5f3-6c7227560359" />
 
-8. 
+8. Di menu laporan warga bisa membuat laporan dengan memasukkan tanggal dan deskripsi.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a999d4ff-cc2e-4269-a688-191b4ea11bf6" />
 
-9. 
+9. Jika menekan tombol kirim maka akan menampilkan pop up seperti gambar di bawah.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/61910f57-3cac-47b9-a74a-c0c26af929d4" />
 
-10. 
+10. Masuk ke menu Lihat Riwayat Distribusi. Di sini warga bisa melihat riwayat distribusi di setiap daerah.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/77c06a1d-456a-4a1f-b851-1a7dad2a228e" />
 
-11. 
+11. Jika menekan kembali dari dua menu warga tadi kita akan kembali ke menu warga. Jika menekan log out maka akan muncul pop up seperti gambar di bawah. Jika menekan Yes maka akan kembali ke menu utama.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/94cf6f57-0b91-47b1-bb27-fd94051e9495" />
 
-12.
+12. Berhasil Log out.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/d1021036-2795-4228-bc36-dece3d67c402" />
 
-13.
+13. Login menggunakan akun admin agar menjadi admin. Masukkan username dan password milik admin.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/5a70a973-c229-418f-830b-f2278c8e8008" />
 
-14.
+14. Akan muncul pop up yes/no. Jika menekan yes maka akan masuk ke menu admin.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f97f9a9a-947a-4118-905d-3931e51ed273" />
 
-15.
+15. Akan muncul pop up selamat datang.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/490cf4e9-d4ec-409c-9b9b-d9c94fd36543" />
 
-16.
+16. Masuk ke menu admin. Di sini terdapat menu Kelola Sumber Air, Uji Kualitas Air, Kelola Laporan, dan Distribusi Air.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/090d2b77-58d3-49a0-a1e9-aedf7100baae" />
 
-17.
+17. Masuk ke menu kelola sumber air. Di sini admin menambah sumber air.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/70f8e725-301e-44b5-8b5b-a6641e00e62c" />
 
-18.
+18. Jika ingin mengubah sumber air klik sumber yang ingin diubah lalu pencet tombol Edit Sumber.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/f90dc9f7-9118-4b7e-821e-7e1c4f3cecae" />
 
-19. 
+19. Akan muncul pop up konfirmasi yes/no.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/e100ecb5-e55d-444a-9c67-561f1c4379e7" />
 
-20.
+20. Data sumber air berhasil dihapus.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/8a36b831-ebc2-4716-95c6-77919b25b5e8" />
 
-21. 
+21. Masuk ke menu Uji Kualitas Air. Di sini admin masukkan tanggal uji dan sumber airnya.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/2456d2fa-5ae1-4917-9cd8-0186c398bafc" />
 
-22.
+22. Masuk ke menu Kelola Laporan. Di sini admin bisa melihat laporan dari warga dan menindaknya.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ebbf81bd-b478-47eb-86c5-188da582d425" />
 
-23. 
+23. Masuk ke menu distribusi air. Di sini admin harus memasukkan sumber air, tanggal, dan volume untuk mendistribusikan air.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/9b90560d-5559-4a99-9585-cca85a5d344d" />
 
-24.
+24. Jika memilih kembali dari semua menu admin tadi maka tampilan akan kembali ke menu admin. Jika memilih log out akan muncul pop up konfirmasi.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ddbe7a90-e14b-4938-818f-6eb2ac3c0d2f" />
 
-25. 
+25. Berhasil logout.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/113a7d4b-a0f6-4715-b478-619488abeefb" />
 
-26.
+26. Setelah logout berhasil maka tampilan akan kembali ke menu utama.
 
 <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b55f6e35-c691-45b5-bdd7-75d237bb4abc" />
