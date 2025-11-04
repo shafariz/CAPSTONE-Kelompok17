@@ -52,25 +52,36 @@ Warga dapat melihat data pendistribusian air di daerahnya.
 
 ## Encapsulation
 
+Potongan kode tersebut mendefinisikan empat atribut objek DAO, yaitu sumberAirDao, kualitasAirDao, laporanDao, dan distribusiAirDao, yang masing-masing berfungsi untuk mengelola data dari tabel berbeda di database. Penggunaan modifier private menandakan bahwa atribut-atribut ini hanya dapat diakses di dalam class itu sendiri, yang merupakan penerapan dari konsep Encapsulation dalam OOP, karena melindungi data agar tidak dapat diubah secara langsung dari luar class. Kata kunci final digunakan agar objek-objek DAO tersebut tidak dapat diganti setelah diinisialisasi, sehingga menjaga konsistensi referensi dan kestabilan koneksi antar komponen. Selain itu, deklarasi ini juga memperlihatkan adanya komposisi antar class, di mana adminController membentuk hubungan erat dengan objek-objek DAO untuk menangani operasi data seperti penambahan, pembacaan, dan pembaruan informasi. Dengan demikian, potongan kode ini mencerminkan prinsip abstraction dan encapsulation secara bersamaan—adminController hanya berfokus pada logika bisnis, sementara detail pengolahan data diserahkan sepenuhnya kepada class DAO yang bersangkutan
+
 ![WhatsApp Image 2025-11-04 at 22 22 00_3f9d310f](https://github.com/user-attachments/assets/1aadd1a7-b97b-4993-903b-90858564775f)
 
 ## Inheritance
 
-![WhatsApp Image 2025-11-04 at 23 18 56_de6b7b7a](https://github.com/user-attachments/assets/1166ecc8-2c5f-4d48-a0de-b80ed6da544e)
+Kode interface iPenggunaDao ini belum menunjukkan inheritance secara langsung, tapi bisa menjadi dasar pewarisan bagi class lain. Dalam konsep OOP, inheritance (pewarisan) terjadi ketika sebuah class mewarisi sifat dan perilaku dari class atau interface lain. Dalam hal ini, interface iPenggunaDao akan diwarisi oleh class konkret seperti penggunaDao, yang kemudian wajib mengimplementasikan semua metode di dalamnya (insert, findByUsername, dan getAll).
 
+![WhatsApp Image 2025-11-04 at 23 18 56_de6b7b7a](https://github.com/user-attachments/assets/1166ecc8-2c5f-4d48-a0de-b80ed6da544e)
 
 ## Abstraction
 
+Potongan kode tambahSumber(sumberAir s) ini merupakan contoh penerapan abstraction dalam pemrograman berorientasi objek. Method ini berfungsi sebagai penghubung antara lapisan controller dan data access layer (DAO). Objek sumberAir yang diterima sebagai parameter mewakili data sumber air yang akan disimpan ke database, sedangkan pemanggilan sumberDao.insert(s) menugaskan proses penyimpanan ke class DAO tanpa controller perlu mengetahui bagaimana detail proses penyimpanannya dilakukan. Hal ini menunjukkan penerapan abstraction, karena detail implementasi disembunyikan di balik pemanggilan method yang sederhana. Dengan cara ini, controller hanya fokus pada logika bisnis, sementara pengelolaan data dilakukan oleh objek DAO, menjadikan kode lebih rapi, terpisah dengan jelas, dan mudah dipelihara.
+
 ![WhatsApp Image 2025-11-04 at 22 35 51_977c88fa](https://github.com/user-attachments/assets/1b903042-6fd0-46d9-acde-c196352cab12)
+
+Potongan kode getDaerahAdmin(int idPengguna) ini merupakan contoh penerapan abstraction dalam konsep OOP. Method ini menyembunyikan detail kompleks proses pengambilan data dari database, seperti pembuatan query SQL, eksekusi PreparedStatement, dan pengolahan ResultSet, dari class lain yang memanggilnya. Pihak yang menggunakan method ini cukup memanggil getDaerahAdmin() dan akan langsung mendapatkan objek daerah yang sudah siap digunakan, tanpa perlu mengetahui bagaimana data tersebut diambil atau bagaimana koneksi ke database dilakukan. Dengan cara ini, kode menjadi lebih bersih dan mudah dipahami karena detail teknis tersembunyi di balik satu method yang sederhana. Abstraksi semacam ini membantu menjaga pemisahan tanggung jawab (separation of concerns), di mana class DAO bertugas mengelola akses data, sedangkan class lain cukup menggunakan hasil akhirnya saja.
 
 ![WhatsApp Image 2025-11-04 at 23 11 10_7d5fc419](https://github.com/user-attachments/assets/e62ccaef-bc3d-4dd4-8f5e-d10f4027dc0d)
 
 ## Polymorphism
 
+Potongan kode konstruktor adminController() ini dapat dikaitkan dengan konsep polymorphism, karena objek-objek DAO (sumberAirDao, kualitasAirDao, laporanDao, distribusiAirDao) kemungkinan besar mengimplementasikan antarmuka (interface) masing-masing, seperti iSumberAirDao atau iLaporanDao. Dengan begitu, variabel-variabel ini bisa mereferensikan objek dari berbagai class yang berbeda tetapi memiliki metode dengan nama yang sama — misalnya, insert() atau getAll() — yang bisa berperilaku berbeda tergantung pada implementasinya. Inilah esensi polymorphism: satu nama method yang sama dapat memiliki perilaku berbeda sesuai objek yang memanggilnya. Dalam konteks ini, controller tidak peduli bagaimana setiap DAO bekerja secara internal; yang penting setiap DAO memenuhi kontrak dari interfacenya, sehingga memungkinkan kode tetap konsisten, fleksibel, dan mudah diperluas.
+
 ![WhatsApp Image 2025-11-04 at 23 15 58_5f5d511b](https://github.com/user-attachments/assets/3e7ee140-e035-4a00-aaa1-d641a518dab6)
 
 
 ## Interface
+
+Potongan kode ini menunjukkan penerapan konsep interface dalam OOP. Interface iPenggunaDao berfungsi sebagai kontrak atau cetak biru yang menentukan metode apa saja yang harus diimplementasikan oleh class lain yang menggunakannya, seperti insert(), findByUsername(), dan getAll(). Interface ini tidak berisi implementasi logika, melainkan hanya mendefinisikan struktur dasar yang wajib diikuti. Dengan adanya interface, kode menjadi lebih fleksibel dan mudah dikembangkan karena berbagai class DAO dapat mengimplementasikan cara mereka sendiri untuk mengakses database, tetapi tetap mengikuti pola yang sama. Konsep ini juga memperkuat prinsip loose coupling — artinya, class lain hanya bergantung pada kontrak interface, bukan pada detail implementasinya, sehingga sistem menjadi lebih modular dan mudah dikelola.
 
 ![WhatsApp Image 2025-11-04 at 23 13 05_63aa0aeb](https://github.com/user-attachments/assets/0b48ba08-a783-41b8-9657-7a3c44011b64)
 
